@@ -5,7 +5,7 @@ require 'includes/conn.php';
 session_start();
 
 if (!isset($_SESSION['admin_email'])) {
-    echo "<script> location.href='/nursery_online/admin/login.php'; </script>";
+    echo "<script> location.href='/bloom-bazaar/admin/login.php'; </script>";
     exit();
 }
 require "includes/header.php";

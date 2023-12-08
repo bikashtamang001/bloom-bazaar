@@ -4,7 +4,7 @@ require './includes/conn.php';
 require "./includes/head.php";
 
 if (!isset($_SESSION['email'])) {
-    echo "<script> location.href='/nursery_online'; </script>";
+    echo "<script> location.href='/bloom-bazaar'; </script>";
     exit();
 }
 ?>
@@ -160,7 +160,7 @@ $result = mysqli_query($con, $query);
                     </tbody>
                 </table>
                 <div class="checkout_btn_inner float-right">
-                    <a class="btn_1" href="/nursery_online">Continue Shopping</a>
+                    <a class="btn_1" href="/bloom-bazaar">Continue Shopping</a>
                     <a class="btn_1 checkout_btn_1" href="checkout.php">Proceed to checkout</a>
                 </div>
             </div>

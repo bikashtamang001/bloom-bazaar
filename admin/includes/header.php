@@ -14,7 +14,7 @@
 
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/nursery_online/admin"><h1>Admin Panel</h1></a>
+            <a class="navbar-brand" href="/bloom-bazaar/admin"><h1>Admin Panel</h1></a>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -49,7 +49,7 @@
     </nav>
     <!-- 
     <div class="sidebar">
-        <a class="active" href="/nursery_online-website/admin">Home</a>
+        <a class="active" href="/bloom-bazaar-website/admin">Home</a>
         <a href="product.php">Product Master</a>
         <a href="order.php">Oredr Master</a>
     </div> -->
